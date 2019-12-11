@@ -1,46 +1,20 @@
-/*
-    Non task-specific marks:
-     
-1. Add a comment with your name and matric here - [1 mark]
-     
-           【【【      Name: Jialiang Song  (Leon)     】】】
-           【【【      Student ID: 2410536s            】】】
-           【【【      Subject: Software development   】】】
-     
-2. Clear code commenting [1 mark]
-      
-    1)    Sorry, Simon... 
-            I forget that it is keep the code commenting clear
-         or
-           "clean" (because clear also has the Verb meaning...) all of the useless code commenting.
-            So, I just keep the original comment. Did not delete them as well as keep my code comment clear...
-       
-    2)   (9th,Oct,2019 update) 
-           ---I have deleted the useless original code comment 0.0
-      
-3. Use of correct Java variable naming conventions [1 mark]
-     
-       okok, No problem 0.0
-     
-*/
-
 import java.util.Scanner;
 public class AssEx1 {
 	
     public static void main(String[] args) {
         String name = "Fred";
 
-        // Task 1 [2 marks]
+        // Task 1 
         
         welcome(name);
 
-        //Task 2 [3 marks]
+        //Task 2 
          
         int m = 7;
         int max = 100;
         multiples(m,max);
 
-        // Task 3 [3 marks]
+        // Task 3 
         // Call the method and print the output three times below...
         
         System.out.println(check(1));
@@ -48,11 +22,11 @@ public class AssEx1 {
         System.out.println(check(12));
 
 
-        // Task 4 [6 marks]
+        // Task 4 
 
         calculator();
 
-        // Task 5 [5 marks]
+        // Task 5 
         
         table(13,5);
         table(-2,7);
