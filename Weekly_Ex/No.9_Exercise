@@ -1,0 +1,79 @@
+// About algorithm exercises
+
+
+Task:
+1. Write a recursive algorithm which takes an int n and prints a row of asterisks of length n
+2. Write a recursive algorithm which takes a string s and writes the characters vertically
+3. We can write the power function bn as b*bn-1  use this fact to write a recursive power algorithm
+4. Write a recursive algorithm which takes a string and prints it out backwards
+5. Write a recursive function which takes an integer n and  calculates the sum of the squares of the numbers 1..n
+6. Implement the algorithms above in Java (you can do this in the lab if you want)
+
+
+My solution:
+1.	array(n)
+To create a list of asterisks on length of n.
+Step1: if n=0, this is an empty array so nothing output.
+Step2: if n<>0, printout “*” and back to the step1 and do array(n-1).
+
+2.	String(s)
+To create a vertical string list based on an original array (length s).
+Step1: get the first character of the string (name it x);
+Step2: if x=0, printout “ “ and EXIT.
+Step3: if x<> NULL; printout x;
+Step4: \n (a new line);
+Step5: back to the Step1 and do the same thing for String(s-1).
+
+3.	Split (b,n)
+To split the power function into the continuous list of multiplication.
+Step1: get the superscript of this number (name it n). 
+Step2: if x=0, printout “ “.
+Step3: if x<>0, “b*”+ (split bn-1)
+
+4.	Backwards(p)
+To print the string backwards. String s = s(0)s(1)……s(p-1)
+Step1: set “p” as the length of the string.
+Step2: if p=0, yield empty string.
+Step3: if p<>0, printout “s(p-1)” + backwards(s(p-1))
+
+5.	Sumofsquare(n)
+To calculate the sum of the square. Assume that n>=1.
+Step1: if n=1, yield n.
+Step2: if n<>1, yield n*(n-1) + sumofsquare(n-1)  （错了）
+     更正↓
+     if n<>1, yield n*n  ADD  sumofsqueare(n-1)   （正确）
+     
+     
+
+
+Standard Solutions
+Solutions
+1.  asterisks(n):
+   To create a string of asterisks of length n
+   1.  If n=0 terminate and yield empty string
+   2.  Else terminate yielding “*” + asterisks(n-1)
+  
+2.  vertical(s):
+  To create a vertical string representing a string s = s(0)s(1)...s(l-1)
+  1.  Set l to be length of string
+  2.  If l=0 terminate, yield empty string
+  3.  Else terminate, yield s(0) + newline + vertical(s(1)...s(l-1))
+
+3.  recursivePower(b,n):
+  To calculate b to the power n, where b and n are integers
+  1.  If n=0 terminate, yield 1
+
+  2.  Else terminate, yield b*recursivePower(b,n-1)
+
+4.  backwards(s):
+  To create a string which is the reverse of s = s(0)s(1)...s(l-1)
+  1.  Set l to be length of s
+  2.  If l=0 terminate and yield empty string
+        3.  Else terminate, yield s(l-1) + backwards(s(0)...s(l-1))
+ 
+5.  sumOfSquares(n):
+  To calculate the sum of the squares of 1,2, …, n
+  1.  If n<=1 terminate, yield n
+  2.  Else terminate, yield n*n + sumOfSquares(n-1)
+
+The Java methods for all algorithms can be found in extraExamples.java
