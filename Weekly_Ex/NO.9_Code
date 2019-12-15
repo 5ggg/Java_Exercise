@@ -1,0 +1,54 @@
+// on Java
+1.  Write a recursive algorithm which takes an int n and prints a row of asterisks of length n
+2.  Write a recursive algorithm which takes a string s and writes the characters vertically
+3.  We can write the power function bn as b*bn-1  use this fact to write a recursive power algorithm
+4.  Write a recursive algorithm which takes a string and prints it out backwards
+5.  Write a recursive function which takes an integer n and  calculates the sum of the squares of the numbers 1..n
+6.  Implement the algorithms above in Java (you can do this in the lab if you want)
+
+
+
+public class extraExamples {
+
+	public static String asterisks(int n){
+		if(n==0) return "";
+		else return "*" + asterisks(n-1);
+	}
+	
+	public static String vertical(String s){
+		if(s.length()==0) return "";
+		else return "" + s.charAt(0) + "\n" + vertical(s.substring(1));
+	}
+	
+	public static int recursivePower(int b, int n){
+		if(n==0) return 1;
+		return b*recursivePower(b,n-1);
+	}
+	
+	public static String backwards(String s){
+		if(s.length()==0) return "";
+		return "" + s.charAt(s.length()-1) + backwards(s.substring(0,s.length()-1));
+	}
+	
+	public static int sumOfSquares(int n){
+		if(n<=1) return n;
+		return n*n + sumOfSquares(n-1);
+	}
+
+	public static void main(String[] args) {
+		//Test first method
+		System.out.println(asterisks(9));
+		//Test second method
+		System.out.println(vertical("absolutely"));
+		//Test third method
+		int b1 = 7;
+		int n1 = 4;
+		System.out.println(b1 + " to the " + n1 + " is " + recursivePower(b1,n1));
+		//Test fourth method
+		System.out.println(backwards("fabulous"));
+		//Test fifth method
+		System.out.println(sumOfSquares(6));
+
+	}
+
+}
