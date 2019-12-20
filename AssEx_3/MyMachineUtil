@@ -1,1 +1,12 @@
+import java.util.Random;
 
+public class MyMachineUtil {
+	// Define ”ACE”, ”King”, ”Queen”, ”Jack” and ”Joker”
+	public static String nameLabel[] = { "ACE", "King", "Queen", "Jack", "Joker" };
+
+	// Define random numbers
+	public static Random r = new Random();
+
+	// Total credit balance (initial value is 100)
+	public static int score = 100;
+}
