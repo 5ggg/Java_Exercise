@@ -1,7 +1,6 @@
 // This class is used to define the elements 
 // required by the main interface class， and for easy management
 
-
 import java.util.Random;
 
 public class MyMachineUtil {
