@@ -49,6 +49,7 @@ public class AssEx1 {
          }
      }
      
+     
 //Task 3 - check
      public static boolean check(int m){
          boolean b = false;
