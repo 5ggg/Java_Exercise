@@ -1,5 +1,5 @@
 // This class display panel component buttons and interfaces, defining the necessary functions 
-
+ 
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
