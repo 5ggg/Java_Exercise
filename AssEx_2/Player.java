@@ -1,5 +1,5 @@
 /**
- * This class represent a game player
+ * This class represent a game player 
  */
 
 public class Player {
