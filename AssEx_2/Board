@@ -1,5 +1,5 @@
 
-// "Create a class to represent a Board"
+// "Create a class to represent a Board" 
 public class Board {
 	
 	private int rows;
