@@ -1,0 +1,8 @@
+package Q4;
+
+public class Pupil {
+	public Pupil(String secondName, String firstName, int numberOfPoints, String reasonForPoints) {
+		
+	}
+
+}

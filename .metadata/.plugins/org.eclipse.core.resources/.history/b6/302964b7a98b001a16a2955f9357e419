@@ -1,0 +1,22 @@
+package Q4;
+
+public class AwardPoints {
+	public AwardPoints(int numberOfPoints, String reasonForPoints) {
+		
+	}
+	
+	public ADD
+	
+	FileWriter writer = new FileWriter(file);
+    
+    writer.write(secondName +" "+ firstName +" "+ points +" "+reason) "This\n is\n an\n example\n");
+    writer.flush();
+    writer.close();
+	
+	public reset
+	
+	public list
+	
+	
+
+}

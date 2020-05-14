@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;seit_2.try1&apos; to &apos;test&apos;&#x0D;&#x0A;- Original project: &apos;S2_Software Eng&apos;&#x0D;&#x0A;- Original element: &apos;seit_2.try1&apos;&#x0D;&#x0A;- Renamed element: &apos;seit_2.test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;try1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/&lt;seit_2{try1.java[try1" matchStrategy="1" name="test" qualified="false" references="true" similarDeclarations="false" stamp="1580127304777" textual="false" version="1.0"/>
+</session>

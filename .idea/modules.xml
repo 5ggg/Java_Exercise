@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eclipse Files.iml" filepath="$PROJECT_DIR$/Eclipse Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eclipse Files1.iml" filepath="$PROJECT_DIR$/Eclipse Files1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S2_Software Eng/S2_Software Eng.iml" filepath="$PROJECT_DIR$/S2_Software Eng/S2_Software Eng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week6/Week6.iml" filepath="$PROJECT_DIR$/Week6/Week6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Z-trytofinddif/Z-trytofinddif.iml" filepath="$PROJECT_DIR$/Z-trytofinddif/Z-trytofinddif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ahello/ahello.iml" filepath="$PROJECT_DIR$/ahello/ahello.iml" />
+    </modules>
+  </component>
+</project>

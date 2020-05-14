@@ -1,0 +1,47 @@
+package Q4;
+
+import java.io.*;
+public class AwardPoints {
+	public AwardPoints(int numberOfPoints, String reasonForPoints) {
+		
+	}
+	
+	String pathname = "D:\\student.txt";
+	File filename = new File(pathname)
+	InputStreamReader reader = new InputStreamReader(
+             new FileInputStream(filename));
+	BufferedReader br = new BufferedReader(reader);
+	String line = "";
+	line = br.readLine();
+    while (line != null) {
+        line = br.readLine();
+	
+	
+	
+	public ADD() {
+		
+		String secondName;
+		String firstName;
+		int points;
+		int numberOfPoints;
+		String reason;
+		
+		
+		
+		File file = new File("student.txt");
+	    file.createNewFile();
+	    FileWriter writer = new FileWriter(file);
+	    writer.write(secondName +" "+ firstName +" "+ points +" "+reason);
+	    writer.flush();
+	    writer.close();
+	}
+	
+	
+	
+	public reset
+	
+	public list
+	
+	
+
+}

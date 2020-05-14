@@ -1,0 +1,18 @@
+/*
+ *  NAME: JiaLiang Song
+ *  Student ID: 2410536s
+ *  Subject: Software Development
+ *  
+ *  
+ *  This class is to launch the main interface panel class
+ *
+ */
+public class ShowFruitMachine {
+
+	public static void main(String[] args) {
+		// Define the main interface object for startup
+		FruitMachine frame = new FruitMachine();
+		// SET the main interface display
+		frame.setVisible(true);
+	}
+}

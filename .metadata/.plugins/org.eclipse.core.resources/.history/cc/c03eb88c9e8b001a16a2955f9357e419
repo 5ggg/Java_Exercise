@@ -1,0 +1,29 @@
+public class ExamQ3 {
+private int a;
+public ExamQ2(int b) {
+a = b;
+}
+private int getA() {
+return a;
+}
+private void setA(int b) {
+a = b;
+}
+public String toString() {
+return "" + a;
+}
+public static void add3(int a) {
+a += 3;
+}
+public static void add3Obj(ExamQ2 e) {
+e.setA(3 + e.getA());
+}
+public static void main(String[] args) {
+int a = 5;
+23. ExamQ2 ee = new ExamQ2(a);
+24. add3(a);
+25. System.out.println(a);
+26. add3Obj(ee);
+27. System.out.println(ee.getA());
+28. }
+29. }
